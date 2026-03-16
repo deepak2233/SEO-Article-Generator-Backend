@@ -1,0 +1,13 @@
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+addopts = "-v --tb=short"
+
+[project]
+name = "seo-article-generator"
+version = "1.0.0"
+description = "Agent-based SEO article generation service"
+requires-python = ">=3.10"

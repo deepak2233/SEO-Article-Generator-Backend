@@ -1,0 +1,133 @@
+{
+  "example_request": {
+    "topic": "best productivity tools for remote teams",
+    "target_word_count": 1500,
+    "language": "en"
+  },
+  "example_response": {
+    "title": "Best Productivity Tools for Remote Teams in 2025",
+    "seo_metadata": {
+      "title_tag": "Best Productivity Tools for Remote Teams in 2025",
+      "meta_description": "Discover the top productivity tools for remote teams. Compare project management, communication, and AI-powered solutions in this 2025 guide.",
+      "primary_keyword": "productivity tools for remote teams",
+      "secondary_keywords": [
+        "remote work tools",
+        "team collaboration software",
+        "project management tools",
+        "time tracking apps",
+        "AI productivity tools"
+      ],
+      "keyword_density": {
+        "productivity tools for remote teams": 1.2,
+        "remote work tools": 0.5,
+        "team collaboration software": 0.3,
+        "project management tools": 0.7,
+        "time tracking apps": 0.4
+      },
+      "readability_score": 62.0
+    },
+    "outline": {
+      "title": "Best Productivity Tools for Remote Teams in 2025",
+      "headings": [
+        {"level": 1, "text": "Best Productivity Tools for Remote Teams in 2025"},
+        {"level": 2, "text": "Introduction"},
+        {"level": 2, "text": "Top Project Management Tools"},
+        {"level": 3, "text": "Asana"},
+        {"level": 3, "text": "Trello"},
+        {"level": 2, "text": "Best Communication Platforms"},
+        {"level": 2, "text": "Time Tracking Solutions"},
+        {"level": 2, "text": "AI-Powered Productivity Tools"},
+        {"level": 2, "text": "FAQ"},
+        {"level": 3, "text": "What is the best free productivity tool?"},
+        {"level": 3, "text": "How do remote teams stay productive?"},
+        {"level": 3, "text": "What tools do successful remote companies use?"},
+        {"level": 2, "text": "Conclusion"}
+      ],
+      "search_intent": "commercial investigation",
+      "target_total_words": 1500
+    },
+    "internal_links": [
+      {
+        "anchor_text": "SEO keyword research tools",
+        "suggested_target_page": "/seo-keyword-research-tools",
+        "context": "Introduction section — when discussing content optimization"
+      },
+      {
+        "anchor_text": "remote team management best practices",
+        "suggested_target_page": "/remote-team-management",
+        "context": "Project Management section — transitioning to communication"
+      },
+      {
+        "anchor_text": "async communication guide",
+        "suggested_target_page": "/async-communication-guide",
+        "context": "Communication Platforms section"
+      },
+      {
+        "anchor_text": "content optimization checklist",
+        "suggested_target_page": "/content-optimization-checklist",
+        "context": "Conclusion — as a call to action"
+      }
+    ],
+    "external_references": [
+      {
+        "title": "Buffer State of Remote Work 2024",
+        "url": "https://buffer.com/state-of-remote-work/2024",
+        "authority_reason": "Annual industry survey with 3,000+ respondents",
+        "placement_context": "Introduction — citing remote work adoption statistics"
+      },
+      {
+        "title": "Harvard Business Review: How to Manage Remote Teams",
+        "url": "https://hbr.org/2024/managing-remote-teams",
+        "authority_reason": "Academic and business credibility",
+        "placement_context": "Communication section — backing up async-first approach"
+      },
+      {
+        "title": "Gartner Digital Workplace Survey",
+        "url": "https://www.gartner.com/en/newsroom/press-releases/digital-workplace",
+        "authority_reason": "Enterprise market research authority",
+        "placement_context": "AI-Powered Tools section — citing adoption trends"
+      }
+    ],
+    "faq_section": [
+      {
+        "question": "What is the best free productivity tool?",
+        "answer": "Trello and Notion both offer generous free tiers suitable for small remote teams. Trello provides unlimited boards with some feature limitations, while Notion offers a complete workspace for individual use."
+      },
+      {
+        "question": "How do remote teams stay productive?",
+        "answer": "Successful remote teams combine the right tools with clear processes. This includes daily standups, async communication norms, regular check-ins, and dedicated collaboration windows."
+      },
+      {
+        "question": "What tools do successful remote companies use?",
+        "answer": "Companies like GitLab, Zapier, and Buffer rely on Slack for communication, Notion or Confluence for documentation, and Linear or Asana for project management."
+      }
+    ],
+    "quality_report": {
+      "overall_score": 8.2,
+      "passed": true,
+      "dimensions": [
+        {"name": "Keyword Presence", "score": 10.0, "passed": true},
+        {"name": "Heading Structure", "score": 10.0, "passed": true},
+        {"name": "Word Count", "score": 8.5, "passed": true},
+        {"name": "Readability", "score": 7.0, "passed": true},
+        {"name": "Content Depth", "score": 9.6, "passed": true},
+        {"name": "Meta Quality", "score": 9.0, "passed": true}
+      ],
+      "keyword_in_title": true,
+      "keyword_in_intro": true,
+      "has_proper_h_structure": true,
+      "word_count": 1487,
+      "target_word_count": 1500
+    },
+    "word_count": 1487,
+    "generation_time_seconds": 28.4
+  },
+  "api_usage": {
+    "create_job": "POST /api/v1/articles/generate {\"topic\": \"best productivity tools for remote teams\", \"target_word_count\": 1500, \"language\": \"en\"}",
+    "create_job_sync": "POST /api/v1/articles/generate?sync=true {\"topic\": \"...\"}",
+    "check_status": "GET /api/v1/jobs/{job_id}",
+    "resume_job": "POST /api/v1/jobs/{job_id}/resume",
+    "list_jobs": "GET /api/v1/jobs?status=completed",
+    "delete_job": "DELETE /api/v1/jobs/{job_id}"
+  }
+}
